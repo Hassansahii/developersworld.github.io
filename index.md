@@ -1,37 +1,73 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/Hassansahii/developersworld.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration form</title>
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body style="background-color: gray;">
+    <h1>Welcome on our Site</h1>
+    <form action="/system">
+        <div>
+            <label for="Name">Enter first Name</label>
+            <input type="text" name="first name" id="Name " placeholder="first" minlength="4" maxlength="8" required>
+            <label for="last Name">Enter last name</label>
+            <input type="text" name="last name " id="last name" placeholder="last" minlength="4" maxlength="9" required>
+        </div>
+        <h2>Select Race type</h2>
+        <div>
+            <label for="Full 5km">Run 5km </label>
+            <input type="radio" name="run" id="Full 5km" value="full 5km">
+        </div>
+        <div>
+            <label for="Half race">Half race </label>
+            <input type="radio" name="run" id="Half race" value="half race ">
+        </div>
+        <div>
+            <label for="200m Race"> 200m race </label>
+            <input type="radio" name="run" id="200m Race" value="200m ace ">
+        </div>
+        <p>
+            <label for="email">Enter email</label>
+            <input type="email" name="email" id="email" placeholder="sahi1230@gmail.com" required>
+        </p>
+        <div>
+            <label for="number">enter your number</label>
+            <input type="number" name="number" id="number" placeholder="+923098312139" required>
+        </div>
+        <h2>Select age group</h2>
+        <div>
+            <label for="age">Select age type</label>
+            <select name="age" id="age">Select age
+                <option value="kids">under 18</option>
+                <option value="young">18-30</option>
+                <option value="adult">31-50</option>
+            </select>
+        </div>
+        <div>
+            <p>
+                <label for="others">Write something else</label> <br>
+                <textarea name="others" id="others" cols="40" rows="5" placeholder="Write here..."></textarea>
+            </p>
+        </div>
+        <p>
+            <button type="submit" style="background-color: rgb(105, 105, 105);">Register</button>
+        </p>
+    </form>
+    <a
+        href="https://images.unsplash.com/photo-1452626038306-9aae5e071dd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=753&q=80">
+        Learn about us</a>
+    <footer>
+        <p>
+            <b>Prepared By</b> <br>
+            <a
+                href="https://www.linkedin.com/in/abu-ul-hassan-99a141217?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BbZWsLuVET6i%2BlVr8Fiu5RQ%3D%3D">linkedin
+                profile</a>
+        </p>
+    </footer>
+</body>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Hassansahii/developersworld.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
